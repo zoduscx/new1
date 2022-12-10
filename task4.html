@@ -1,0 +1,258 @@
+<html>
+<head><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"></head>
+<style type="text/css">*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: url('../img/pixel.png');
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height:100px;
+    background-color: #822d2d;
+}
+footer{
+    height:100px;
+    background-color: #822d2d;    
+}
+.upper{
+    width:1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    width:900px;
+    justify-content: space-between;
+    align-items: center ;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    color:white;
+    font-size:21px;
+    font-family: Arial;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.mainup{
+    display: flex;
+}
+.line, .line2{
+    height: 55px;
+    background: url('../img/line.png');
+}
+.line{
+    width:calc(40% - 300px);
+}
+.line2{
+    width:60%;
+}
+.groupname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:36px;
+    background: url('../img/pixel.png');
+}
+.main div{
+    border: 1px solid;
+}
+
+.timetable{
+    width: 1200px;
+}
+
+.timetable div{
+    display: flex;
+}
+.timetable div div{
+    height:60px;
+    width:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 18px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+    color:#e4c4b5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.down ul li{
+    list-style: none;
+}
+.down a{
+    justify-content: space-between;
+    color:#e4c4b5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.down a:hover{
+    text-decoration: underline;
+}
+.down div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fm2{
+    font-size: 16px;
+}
+
+</style>
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <div class="upper">
+            <img src="img/logo.png" alt="">
+        <nav class="menu">
+            <ul>
+                <li><a href="">Створити розклад </a></li>
+                <li><a href="">Вибрати групу </a></li>
+                <li><a href="">Розклад вчителя </a></li>
+                <li><a href="">Про сайт </a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <div class="mainup">
+            <div class="line"></div>
+            <div class="groupname">ЕК-31</div>
+            <div class="line2"></div>
+        </div>
+        <div class="timetable">
+            <div class="s0">
+                <div class="l1"></div>
+                <div class="l2">Пн</div>
+                <div class="l3">Вт</div>
+                <div class="l4">Ср</div>
+                <div class="l5">Чт</div>
+                <div class="l6">Пт</div>
+                <div class="l7">Сб</div>
+                <div class="l8">Нд</div>
+            </div>
+            <div class="s1">
+                <div class="l1">8:30 - 9:50</div>
+                <div class="l2">Економетріка</div>
+                <div class="l3">-</div>
+                <div class="l4">Економетріка</div>
+                <div class="l5">-</div>
+                <div class="l6">Інтернет маркетінг</div>
+                <div class="l7"></div>
+                <div class="l8"></div>
+            </div>
+            <div class="s2">
+                <div class="l1">10:10 - 11:30</div>
+                <div class="l2 ">Веб. програм.</div>
+                <div class="l3">Економічна кібернетика</div>
+                <div class="l4">Економетріка</div>
+                <div class="l5">Інтернет маркетінг</div>
+                <div class="l6">Риторика</div>
+                <div class="l7"></div>
+                <div class="l8"></div>
+            </div>
+            <div class="s3">
+                <div class="l1">12:00 - 13:20</div>
+                <div class="l2">-</div>
+                <div class="l3">Економічна кібернетика</div>
+                <div class="l4">Англійський</div>
+                <div class="l5">Веб. програм.</div>
+                <div class="l6">Межфак</div>
+                <div class="l7"></div>
+                <div class="l8"></div>
+            </div>
+            <div class="s4">
+                <div class="l1">13:40 - 15:00</div>
+                <div class="l2">Кураторський час</div>
+                <div class="l3">Веб. програм.</div>
+                <div class="l4">-</div>
+                <div class="l5">Англійський</div>
+                <div class="l6">-</div>
+                <div class="l7"></div>
+                <div class="l8"></div>
+            </div>
+            <div class="s5">
+                <div class="l1">15:20 - 16:40</div>
+                <div class="l2"></div>
+                <div class="l3"></div>
+                <div class="l4"></div>
+                <div class="l5"></div>
+                <div class="l6"></div>
+                <div class="l7"></div>
+                <div class="l8"></div>
+            </div>
+            <div class="s6">
+                <div class="l1">17:00 - 18:20</div>
+                <div class="l2"></div>
+                <div class="l3"></div>
+                <div class="l4"></div>
+                <div class="l5"></div>
+                <div class="l6"></div>
+                <div class="l7"></div>
+                <div class="l8"></div>
+            </div>
+            <div class="s7">
+                <div class="l1"></div>
+                <div class="l2"></div>
+                <div class="l3"></div>
+                <div class="l4"></div>
+                <div class="l5"></div>
+                <div class="l6"></div>
+                <div class="l7"></div>
+                <div class="l8"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="down">
+            <div class="fm1">
+                <nav>
+                    <ul>
+                        <li><a href="">Вибрати групу</a></li>
+                        <li><a href="">Розклад вчителя</a></li>
+                        <li><a href="">Створити розклад</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+            <div class="fm2">ХНУ ім. В.Н.  Каразіна</div>
+            <div class="fm3">Адреса: майдан Свободи 4, 61022, Харків<br>
+                Приймальна комісія: +38 (057) 707-52-70<br>
+                Довідкова, тел: +38 (057) 707-55-00<br>
+                Факс: +38 (057) 705-02-41<br>
+                E-mail: univer@karazin.ua<br>
+                URL: //www.univer.kharkov.ua</div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
